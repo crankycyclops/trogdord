@@ -8,7 +8,7 @@ A TCP server built on top of the Trogdor++ library for the purpose of hosting on
 
 The Trogdor++ core library supports running many multi-player games in parallel, but without a driving application to take advantage of those features, the library would be worthless. Trogdord fills this gap by wrapping around core to host and manage games over a network.
 
-Trogdord is designed to work in tandem with a client-side connector, such as the official [PHP extension](src/php7/trogdord/README.md) or the [Node.js](src/nodejs/trogdord/README.md) module, both of which are provided by this repository.
+Trogdord is designed to work in tandem with a client-side connector, such as the official [PHP extension](https://github.com/crankycyclops/trogdor-pp/blob/master/src/php7/trogdord/README.md) or the [Node.js](https://github.com/crankycyclops/trogdor-pp/blob/master/src/nodejs/trogdord/README.md) module, both of which are provided by this repository.
 
 ## Documentation
 
@@ -52,7 +52,7 @@ If you're interested in writing your own client-side connector, or just want to 
 
 ## Installation
 
-To build and install, first make sure the [core library](../core/README.md) was built and installed to a place where pkg-config can find it, then issue these commands:
+To build and install, first make sure the [core library](https://github.com/crankycyclops/trogdor-pp/tree/master/src/core) was built and installed to a place where pkg-config can find it, then issue these commands:
 
 ```
 cd src/trogdord && cmake -DCMAKE_BUILD_TYPE=Release .
@@ -61,7 +61,7 @@ make trogdord && make install
 
 To build trogdord with redis support, add `-DENABLE_REDIS=ON` to your cmake command above.
 
-If the [core library](../core/README.md) was compiled with either the JSON or SQLite3 serialization drivers (or both), they will be available to trogdord for dumping and restoring games.
+If the [core library](https://github.com/crankycyclops/trogdor-pp/tree/master/src/core) was compiled with either the JSON or SQLite3 serialization drivers (or both), they will be available to trogdord for dumping and restoring games.
 
 If you need debug symbols, add the following option to your cmake command: `-DCMAKE_BUILD_TYPE=Debug`. If you've already built it using debug symbols in the past and want to switch back to a release build, use this cmake option instead: `-DCMAKE_BUILD_TYPE=Release`.
 
