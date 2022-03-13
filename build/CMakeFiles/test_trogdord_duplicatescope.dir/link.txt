@@ -1,1 +1,0 @@
-/usr/bin/g++-9 -fPIC -Wall -pthread -g  -shared -Wl,-soname,test_trogdord_duplicatescope.so -o test_trogdord_duplicatescope.so CMakeFiles/test_trogdord_duplicatescope.dir/test/extensions/duplicatescope.cpp.o  -Wl,-rpath,/home/james/git/trogdor-pp/src/trogdord/build libtrogdord.so -lstdc++fs -linih -ldl -ltrogdor -lhiredis 

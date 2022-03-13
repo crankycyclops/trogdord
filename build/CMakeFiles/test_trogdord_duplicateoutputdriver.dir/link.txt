@@ -1,1 +1,0 @@
-/usr/bin/g++-9 -fPIC -Wall -pthread -g  -shared -Wl,-soname,test_trogdord_duplicateoutputdriver.so -o test_trogdord_duplicateoutputdriver.so CMakeFiles/test_trogdord_duplicateoutputdriver.dir/test/extensions/duplicateoutputdriver.cpp.o  -Wl,-rpath,/home/james/git/trogdor-pp/src/trogdord/build -lhiredis libtrogdord.so -lstdc++fs -linih -ldl -ltrogdor -lhiredis 

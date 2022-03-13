@@ -1,1 +1,0 @@
-/usr/bin/g++-9 -fPIC -Wall -pthread -g  -shared -Wl,-soname,test_trogdord_hello.so -o test_trogdord_hello.so CMakeFiles/test_trogdord_hello.dir/test/extensions/helloscope.cpp.o  -Wl,-rpath,/home/james/git/trogdor-pp/src/trogdord/build -lhiredis libtrogdord.so -lstdc++fs -linih -ldl -ltrogdor -lhiredis 
