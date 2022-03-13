@@ -6,7 +6,7 @@ RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/2.4
 
 # Install the latest stable version of the core library (whatever's in master)
 WORKDIR /usr/local/src
-RUN git clone git@github.com:crankycyclops/trogdor-pp.git
+RUN git clone https://github.com/crankycyclops/trogdor-pp.git
 WORKDIR /usr/local/src/trogdor-pp
 RUN cmake -DENABLE_SERIALIZE_JSON=ON -DENABLE_SERIALIZE_SQLITE=ON -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX:PATH=/usr ./src/core
 RUN make -j2 trogdor && make install
