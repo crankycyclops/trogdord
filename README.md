@@ -1,4 +1,4 @@
-![Trogdord Tests](https://github.com/crankycyclops/trogdor-pp/workflows/Trogdord%20Tests/badge.svg)
+![Trogdord Tests](https://github.com/crankycyclops/trogdord/workflows/Trogdord%20Tests/badge.svg)
 
 # Trogdord
 
