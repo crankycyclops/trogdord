@@ -1,0 +1,17 @@
+# Adapted from here: https://www.scivision.dev/cmake-generate-pkg-config/
+#
+# Good tutoral for understanding .pc files: 
+# https://people.freedesktop.org/~dbn/pkg-config-guide.html
+
+prefix="/home/james/local"
+exec_prefix="${prefix}"
+libdir="${prefix}/lib"
+includedir="${prefix}/include"
+
+Name: PROJECT_NAME
+Description: Trogdord server
+Version: PROJECT_VERSION
+URL: https://github.com/crankycyclops/trogdor-pp
+
+Cflags: -I"${includedir}"
+Libs: -L"${libdir}" -ltrogdord

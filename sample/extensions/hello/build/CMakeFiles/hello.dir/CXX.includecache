@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/james/git/trogdor-pp/src/trogdord/sample/extensions/hello/output.cpp
+output.h
+/home/james/git/trogdor-pp/src/trogdord/sample/extensions/hello/output.h
+trogdord/config.h
+-
+trogdord/exception/unsupportedoperation.h
+-
+
+/home/james/git/trogdor-pp/src/trogdord/sample/extensions/hello/output.h
+queue
+-
+string
+-
+mutex
+-
+optional
+-
+unordered_map
+-
+trogdord/io/output/driver.h
+-
+

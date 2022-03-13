@@ -1,0 +1,1 @@
+/usr/bin/g++-9 -fPIC -Wall -pthread -g  -shared -Wl,-soname,test_trogdord_nousefulsymbols.so -o test_trogdord_nousefulsymbols.so CMakeFiles/test_trogdord_nousefulsymbols.dir/test/extensions/nousefulsymbols.cpp.o 

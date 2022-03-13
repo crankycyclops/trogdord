@@ -1,0 +1,197 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_trogdord_nousefulsymbols.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 348,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -pthread -g -fPIC  "
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ASIO_STANDALONE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CORE_UNIT_TEST_DEFINITION_FILE=(\"/home/james/local/share/trogdor/game.xml\")"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ENABLE_REDIS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENABLE_SERIALIZE_JSON"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENABLE_SERIALIZE_SQLITE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "GAME_XML_DEFAULT_PATH=\"/home/james/local/share/trogdor/game.xml\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "LIBDL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "TROGDORD_INI_PATH=\"/home/james/local/etc/trogdord/trogdord.ini\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "TROGDORD_INSTALL_PREFIX=\"/home/james/local\""
+				},
+				{
+					"define" : "test_trogdord_nousefulsymbols_EXPORTS"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "test_trogdord_nousefulsymbols::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_trogdord_nousefulsymbols",
+	"nameOnDisk" : "test_trogdord_nousefulsymbols.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/extensions/nousefulsymbols.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

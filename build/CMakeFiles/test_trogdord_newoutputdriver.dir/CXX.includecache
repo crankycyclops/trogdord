@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/trogdord/io/message.h
+string
+-
+ctime
+-
+../json.h
+../include/trogdord/json.h
+
+../include/trogdord/io/output/driver.h
+string
+-
+memory
+-
+optional
+-
+unordered_map
+-
+unordered_set
+-
+../message.h
+../include/trogdord/io/message.h
+
+../include/trogdord/json.h
+string
+-
+optional
+-
+rapidjson/document.h
+-
+rapidjson/stringbuffer.h
+-
+rapidjson/writer.h
+-
+
+/home/james/git/trogdor-pp/src/trogdord/test/extensions/newoutputdriver.cpp
+trogdord/io/output/driver.h
+-
+

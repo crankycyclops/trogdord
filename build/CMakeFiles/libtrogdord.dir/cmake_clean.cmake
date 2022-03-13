@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/libtrogdord.dir/config.cpp.o"
+  "CMakeFiles/libtrogdord.dir/dispatcher.cpp.o"
+  "CMakeFiles/libtrogdord.dir/exception/requestexception.cpp.o"
+  "CMakeFiles/libtrogdord.dir/extensionloader.cpp.o"
+  "CMakeFiles/libtrogdord.dir/filesystem.cpp.o"
+  "CMakeFiles/libtrogdord.dir/filter/filter.cpp.o"
+  "CMakeFiles/libtrogdord.dir/gamecontainer.cpp.o"
+  "CMakeFiles/libtrogdord.dir/gamewrapper.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/input/listenercontainer.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/input/listeners/listener.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/input/listeners/redis.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/iostream/servererr.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/iostream/serverout.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/output/driver.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/output/local.cpp.o"
+  "CMakeFiles/libtrogdord.dir/io/output/redis.cpp.o"
+  "CMakeFiles/libtrogdord.dir/network/tcpconnection.cpp.o"
+  "CMakeFiles/libtrogdord.dir/network/tcpserver.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/being.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/controller.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/creature.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/entity.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/game.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/global.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/object.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/place.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/player.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/resource.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/room.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/tangible.cpp.o"
+  "CMakeFiles/libtrogdord.dir/scopes/thing.cpp.o"
+  "CMakeFiles/libtrogdord.dir/serial/drivermap.cpp.o"
+  "libtrogdord.pdb"
+  "libtrogdord.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/libtrogdord.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

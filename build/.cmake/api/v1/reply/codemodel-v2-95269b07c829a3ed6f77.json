@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "trogdord",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "analyze::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-analyze-Debug-fe44eeb3a4061a161f3c.json",
+					"name" : "analyze",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppcheck-Debug-c65022f9a923dfe808bb.json",
+					"name" : "cppcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lcount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lcount-Debug-e234977d1a8ba2a173ae.json",
+					"name" : "lcount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libtrogdord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libtrogdord-Debug-2a1ff570aeebb0a47fae.json",
+					"name" : "libtrogdord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trogdord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trogdord-Debug-8f177f080966abeb61a5.json",
+					"name" : "test_trogdord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trogdord_duplicateoutputdriver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trogdord_duplicateoutputdriver-Debug-a7782e788159b7d6b433.json",
+					"name" : "test_trogdord_duplicateoutputdriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trogdord_duplicatescope::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trogdord_duplicatescope-Debug-a01d21b001fa12ad157e.json",
+					"name" : "test_trogdord_duplicatescope",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trogdord_envvar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trogdord_envvar-Debug-2efcfc8ee00e4111700a.json",
+					"name" : "test_trogdord_envvar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trogdord_hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trogdord_hello-Debug-b80de859edaf393bd5a5.json",
+					"name" : "test_trogdord_hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trogdord_newoutputdriver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trogdord_newoutputdriver-Debug-8d774031ee53bfee7052.json",
+					"name" : "test_trogdord_newoutputdriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trogdord_nousefulsymbols::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trogdord_nousefulsymbols-Debug-5c296e8f6cdd9a214b9a.json",
+					"name" : "test_trogdord_nousefulsymbols",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trogdord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trogdord-Debug-c3a387e8e1bb0ba7bce7.json",
+					"name" : "trogdord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trogdord_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trogdord_data-Debug-5a00be0a70c1f5226b00.json",
+					"name" : "trogdord_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trogdord_dev::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trogdord_dev-Debug-c1ab4412ca42f7ea0a7e.json",
+					"name" : "trogdord_dev",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trogdord_pkgconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trogdord_pkgconfig-Debug-78478482d6dc1dbc7c48.json",
+					"name" : "trogdord_pkgconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-7d447c7ab83889a1dd39.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unit_test-Debug-fc5a8e124efa46001b1f.json",
+					"name" : "unit_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/james/git/trogdor-pp/src/trogdord/build",
+		"source" : "/home/james/git/trogdor-pp/src/trogdord"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

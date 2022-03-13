@@ -1,0 +1,1 @@
+/usr/bin/g++-9 -fPIC -g  -shared -Wl,-soname,hello.so -o hello.so CMakeFiles/hello.dir/hello.cpp.o CMakeFiles/hello.dir/output.cpp.o CMakeFiles/hello.dir/serial.cpp.o CMakeFiles/hello.dir/extension.cpp.o 

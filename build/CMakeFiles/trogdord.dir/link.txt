@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -Wall -pthread -g   CMakeFiles/trogdord.dir/main.cpp.o  -o trogdord  -Wl,-rpath,/home/james/git/trogdor-pp/src/trogdord/build: libtrogdord.so -ltrogdor_serial -ltrogdor_serial_json -ltrogdor_serial -ltrogdor_serial_sqlite -lstdc++fs -linih -ldl -ltrogdor -lhiredis -ltrogdor_serial_json -ltrogdor_serial_sqlite 

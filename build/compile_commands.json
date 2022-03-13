@@ -1,0 +1,612 @@
+[
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/config.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/config.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/config.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/filesystem.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/filesystem.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/filesystem.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/dispatcher.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/dispatcher.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/dispatcher.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/gamewrapper.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/gamewrapper.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/gamewrapper.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/gamecontainer.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/gamecontainer.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/gamecontainer.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/extensionloader.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/extensionloader.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/extensionloader.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/exception/requestexception.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/exception/requestexception.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/exception/requestexception.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/filter/filter.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/filter/filter.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/filter/filter.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/network/tcpconnection.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/network/tcpconnection.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/network/tcpconnection.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/network/tcpserver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/network/tcpserver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/network/tcpserver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/controller.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/controller.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/controller.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/global.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/global.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/global.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/game.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/game.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/game.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/entity.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/entity.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/entity.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/resource.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/resource.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/resource.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/tangible.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/tangible.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/tangible.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/place.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/place.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/place.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/room.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/room.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/room.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/thing.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/thing.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/thing.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/object.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/object.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/object.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/being.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/being.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/being.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/creature.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/creature.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/creature.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/scopes/player.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/player.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/player.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/serial/drivermap.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/serial/drivermap.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/serial/drivermap.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/io/input/listeners/listener.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/input/listeners/listener.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/input/listeners/listener.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/io/input/listenercontainer.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/input/listenercontainer.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/input/listenercontainer.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/io/output/driver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/output/driver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/output/driver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/io/output/local.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/output/local.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/output/local.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/io/iostream/serverout.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/iostream/serverout.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/iostream/serverout.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dlibtrogdord_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/libtrogdord.dir/io/iostream/servererr.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/iostream/servererr.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/iostream/servererr.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dtest_trogdord_duplicateoutputdriver_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/test_trogdord_duplicateoutputdriver.dir/test/extensions/duplicateoutputdriver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/extensions/duplicateoutputdriver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/extensions/duplicateoutputdriver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/trogdord.dir/main.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/main.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/main.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dtest_trogdord_newoutputdriver_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/test_trogdord_newoutputdriver.dir/test/extensions/newoutputdriver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/extensions/newoutputdriver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/extensions/newoutputdriver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dtest_trogdord_nousefulsymbols_EXPORTS  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/test_trogdord_nousefulsymbols.dir/test/extensions/nousefulsymbols.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/extensions/nousefulsymbols.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/extensions/nousefulsymbols.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dtest_trogdord_duplicatescope_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/test_trogdord_duplicatescope.dir/test/extensions/duplicatescope.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/extensions/duplicatescope.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/extensions/duplicatescope.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -Dtest_trogdord_hello_EXPORTS -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g -fPIC   -std=gnu++17 -o CMakeFiles/test_trogdord_hello.dir/test/extensions/helloscope.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/extensions/helloscope.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/extensions/helloscope.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/config.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/config.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/config.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/filesystem.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/filesystem.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/filesystem.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/dispatcher.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/dispatcher.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/dispatcher.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/gamewrapper.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/gamewrapper.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/gamewrapper.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/gamecontainer.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/gamecontainer.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/gamecontainer.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/extensionloader.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/extensionloader.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/extensionloader.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/exception/requestexception.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/exception/requestexception.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/exception/requestexception.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/filter/filter.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/filter/filter.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/filter/filter.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/network/tcpconnection.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/network/tcpconnection.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/network/tcpconnection.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/network/tcpserver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/network/tcpserver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/network/tcpserver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/controller.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/controller.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/controller.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/global.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/global.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/global.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/game.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/game.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/game.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/entity.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/entity.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/entity.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/resource.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/resource.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/resource.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/tangible.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/tangible.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/tangible.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/place.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/place.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/place.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/room.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/room.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/room.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/thing.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/thing.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/thing.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/object.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/object.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/object.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/being.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/being.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/being.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/creature.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/creature.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/creature.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/scopes/player.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/player.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/player.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/serial/drivermap.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/serial/drivermap.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/serial/drivermap.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/io/input/listeners/listener.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/input/listeners/listener.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/input/listeners/listener.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/io/input/listenercontainer.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/input/listenercontainer.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/input/listenercontainer.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/io/output/driver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/output/driver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/output/driver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/io/output/local.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/output/local.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/output/local.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/io/iostream/serverout.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/iostream/serverout.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/iostream/serverout.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/io/iostream/servererr.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/iostream/servererr.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/iostream/servererr.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/test/main.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/main.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/main.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord_envvar.dir/test/envvar/config.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/envvar/config.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/envvar/config.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/config.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/config.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/config.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/filesystem.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/filesystem.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/filesystem.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/dispatcher.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/dispatcher.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/dispatcher.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/gamewrapper.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/gamewrapper.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/gamewrapper.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/gamecontainer.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/gamecontainer.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/gamecontainer.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/extensionloader.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/extensionloader.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/extensionloader.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/exception/requestexception.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/exception/requestexception.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/exception/requestexception.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/filter/filter.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/filter/filter.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/filter/filter.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/network/tcpconnection.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/network/tcpconnection.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/network/tcpconnection.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/network/tcpserver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/network/tcpserver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/network/tcpserver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/controller.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/controller.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/controller.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/global.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/global.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/global.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/game.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/game.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/game.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/entity.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/entity.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/entity.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/resource.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/resource.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/resource.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/tangible.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/tangible.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/tangible.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/place.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/place.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/place.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/room.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/room.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/room.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/thing.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/thing.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/thing.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/object.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/object.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/object.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/being.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/being.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/being.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/creature.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/creature.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/creature.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/scopes/player.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/scopes/player.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/scopes/player.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/serial/drivermap.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/serial/drivermap.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/serial/drivermap.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/io/input/listeners/listener.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/input/listeners/listener.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/input/listeners/listener.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/io/input/listenercontainer.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/input/listenercontainer.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/input/listenercontainer.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/io/output/driver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/output/driver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/output/driver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/io/output/local.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/output/local.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/output/local.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/io/iostream/serverout.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/iostream/serverout.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/iostream/serverout.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/io/iostream/servererr.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/io/iostream/servererr.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/io/iostream/servererr.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/mock/mockscope.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/mock/mockscope.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/mock/mockscope.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/mock/mockoutputdriver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/mock/mockoutputdriver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/mock/mockoutputdriver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/mock/mockdispatcher.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/mock/mockdispatcher.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/mock/mockdispatcher.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/mock/game/mockaction.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/mock/game/mockaction.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/mock/game/mockaction.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/main.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/main.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/main.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/config.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/config.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/config.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/dispatcher.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/dispatcher.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/dispatcher.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/gamewrapper.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/gamewrapper.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/gamewrapper.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/gamecontainer.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/gamecontainer.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/gamecontainer.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/extensionloader.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/extensionloader.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/extensionloader.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/io/output/driver.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/io/output/driver.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/io/output/driver.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/io/output/local.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/io/output/local.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/io/output/local.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/controller.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/controller.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/controller.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/global.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/global.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/global.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/game.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/game.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/game.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/entity.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/entity.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/entity.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/tangible.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/tangible.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/tangible.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/place.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/place.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/place.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/room.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/room.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/room.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/thing.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/thing.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/thing.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/object.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/object.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/object.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/being.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/being.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/being.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/creature.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/creature.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/creature.cpp"
+},
+{
+  "directory": "/home/james/git/trogdor-pp/src/trogdord/build",
+  "command": "/bin/g++-9  -DASIO_STANDALONE -DCORE_UNIT_TEST_DEFINITION_FILE=\"(\\\"/usr/local/share/trogdor/game.xml\\\")\" -DDEBUG -DENABLE_SERIALIZE_JSON -DENABLE_SERIALIZE_SQLITE -DGAME_XML_DEFAULT_PATH=\\\"/usr/local/share/trogdor/game.xml\\\" -DLIBDL -DTIMER_CUSTOM_INTERVAL=5 -DTROGDORD_INI_PATH=\\\"/usr/local/etc/trogdord/trogdord.ini\\\" -DTROGDORD_INSTALL_PREFIX=\\\"/usr/local\\\" -I/usr/include/libxml2 -I/usr/include/lua5.3 -I/home/james/git/trogdor-pp/src/trogdord/src/core/include -I/home/james/git/trogdor-pp/src/trogdord/include  -Wall -pthread -g   -std=gnu++17 -o CMakeFiles/test_trogdord.dir/test/scopes/player.cpp.o -c /home/james/git/trogdor-pp/src/trogdord/test/scopes/player.cpp",
+  "file": "/home/james/git/trogdor-pp/src/trogdord/test/scopes/player.cpp"
+}
+]

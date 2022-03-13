@@ -1,0 +1,1 @@
+/usr/bin/g++-9 -fPIC -Wall -pthread -g  -shared -Wl,-soname,test_trogdord_newoutputdriver.so -o test_trogdord_newoutputdriver.so CMakeFiles/test_trogdord_newoutputdriver.dir/test/extensions/newoutputdriver.cpp.o  -Wl,-rpath,/home/james/git/trogdor-pp/src/trogdord/build -lhiredis libtrogdord.so -lstdc++fs -linih -ldl -ltrogdor -lhiredis 
