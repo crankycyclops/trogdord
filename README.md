@@ -2,7 +2,7 @@
 
 # Trogdord
 
-A TCP server built on top of the Trogdor++ library for the purpose of hosting one or more multi-player games.
+A TCP server built on top of the Trogdor++ library for the purpose of hosting one or more multi-player games. This is part of the [Trogdor++](https://github.com/crankycyclops/trogdor-pp) project.
 
 ## Introduction
 
