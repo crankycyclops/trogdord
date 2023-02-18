@@ -1,6 +1,6 @@
+// NOTE: we're now defining the current trogdord version via CMakeLists.txt.
 #include <trogdor/version.h>
 
-#include <trogdord/version.h>
 #include <trogdord/request.h>
 #include <trogdord/gamecontainer.h>
 #include <trogdord/scopes/global.h>
