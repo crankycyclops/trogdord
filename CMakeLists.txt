@@ -8,7 +8,20 @@ include(CheckIncludeFile)
 include(CheckIncludeFileCXX)
 include(LibtoolFile)
 
-project(trogdord VERSION 0.80.0)
+# Current version of trogdord
+set (TROGDORD_VERSION_MAJOR 0)
+set (TROGDORD_VERSION_MINOR 91)
+set (TROGDORD_VERSION_PATCH 1)
+
+configure_file(${CMAKE_CURRENT_LIST_DIR}/cmake/version.h.in ${CMAKE_CURRENT_BINARY_DIR}/version.h @ONLY)
+
+add_definitions(
+	-DTROGDORD_VERSION_MAJOR=${TROGDORD_VERSION_MAJOR}
+	-DTROGDORD_VERSION_MINOR=${TROGDORD_VERSION_MINOR}
+	-DTROGDORD_VERSION_PATCH=${TROGDORD_VERSION_PATCH}
+)
+
+project(trogdord VERSION ${TROGDORD_VERSION_MAJOR}.${TROGDORD_VERSION_MINOR}.${TROGDORD_VERSION_PATCH})
 
 # Enable conditional compilation in the case of a debug build
 string(TOLOWER "${CMAKE_BUILD_TYPE}" build_type_lower)
@@ -71,10 +84,21 @@ endif (ENABLE_SERIALIZE_SQLITE)
 
 ###############################################################################
 
+# Auto-generated version.h
+add_custom_target(trogdord_version_h)
+install(
+	FILES ${CMAKE_CURRENT_BINARY_DIR}/version.h
+	DESTINATION include/trogdord
+	COMPONENT trogdord_version_h
+)
+
+###############################################################################
+
 # C++ Include files necessary to develop for trogdord extensions
 add_custom_target(trogdord_dev)
 
 install(DIRECTORY include/trogdord DESTINATION include COMPONENT trogdord_dev)
+add_dependencies(trogdord_dev trogdord_version_h)
 
 ###############################################################################
 
@@ -193,6 +217,11 @@ if (HAVE_ASIO)
 
 	add_library(libtrogdord SHARED
 		${TROGDORD_SOURCES}
+	)
+
+	set_target_properties(libtrogdord PROPERTIES
+		VERSION ${TROGDORD_VERSION_MAJOR}.${TROGDORD_VERSION_MINOR}.${TROGDORD_VERSION_PATCH}
+		SOVERSION ${TROGDORD_VERSION_MAJOR}
 	)
 
 	CREATE_LIBTOOL_FILE(libtrogdord ${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_LIBDIR} trogdord)
