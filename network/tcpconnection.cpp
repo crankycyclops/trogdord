@@ -9,7 +9,7 @@
 #include <trogdord/network/tcpserver.h>
 
 
-TCPConnection::TCPConnection(asio::io_service &io_service, TCPServer *s):
+TCPConnection::TCPConnection(IO_SERVICE_TYPE &io_service, TCPServer *s):
 server(s), socket(io_service), inUse(false) {}
 
 /******************************************************************************/
