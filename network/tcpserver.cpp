@@ -146,7 +146,12 @@ void TCPServer::startAccept(TCPConnection::callback_t callback, void *callbackAr
 	for (auto &acceptor: acceptors) {
 
 		std::shared_ptr<TCPConnection> connection = TCPConnection::create(
-			acceptor->get_io_service(),
+
+			#if ASIO_VERSION / 100 % 1000 >= 13
+				acceptor->get_executor().context(),
+			#else
+				acceptor->get_io_service(),
+			#endif
 			this
 		);
 

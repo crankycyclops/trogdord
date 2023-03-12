@@ -1,7 +1,7 @@
-set (CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-
 cmake_minimum_required(VERSION 3.14)
 enable_language(C CXX)
+
+set (CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 include(FindPkgConfig)
 include(CheckIncludeFile)
@@ -11,7 +11,7 @@ include(LibtoolFile)
 # Current version of trogdord
 set (TROGDORD_VERSION_MAJOR 0)
 set (TROGDORD_VERSION_MINOR 91)
-set (TROGDORD_VERSION_PATCH 1)
+set (TROGDORD_VERSION_PATCH 3)
 
 configure_file(${CMAKE_CURRENT_LIST_DIR}/cmake/version.h.in ${CMAKE_CURRENT_BINARY_DIR}/version.h @ONLY)
 
@@ -102,6 +102,15 @@ add_dependencies(trogdord_dev trogdord_version_h)
 
 ###############################################################################
 
+# Determines where pkgconfig files go. By default, they go in $PREFIX/lib/pkgconfig,
+# but when building binary packages (such as for Debian or Ubuntu), you might need
+# to change this path to something else.
+if(DEFINED ENV{PKGCONFIG_DESTINATION})
+	set(PKGCONFIG_DESTINATION $ENV{PKGCONFIG_DESTINATION})
+else()
+    set(PKGCONFIG_DESTINATION lib/pkgconfig)
+endif()
+
 # pkg_config for trogdord.so
 add_custom_target(trogdord_pkgconfig)
 
@@ -117,7 +126,11 @@ configure_file(
 	@ONLY
 )
 
-install(FILES ${CMAKE_BINARY_DIR}/trogdord.pc DESTINATION lib/pkgconfig COMPONENT trogdor_pkgconfig)
+install(
+	FILES ${CMAKE_BINARY_DIR}/trogdord.pc
+	DESTINATION ${PKGCONFIG_DESTINATION}
+	COMPONENT trogdor_pkgconfig
+)
 
 ###############################################################################
 
