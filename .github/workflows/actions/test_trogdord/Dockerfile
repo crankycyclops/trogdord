@@ -9,7 +9,7 @@ WORKDIR /usr/local/src
 RUN git clone https://github.com/crankycyclops/trogdor-pp.git
 WORKDIR /usr/local/src/trogdor-pp
 RUN cmake -DENABLE_SERIALIZE_JSON=ON -DENABLE_SERIALIZE_SQLITE=ON -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX:PATH=/usr ./src/core
-RUN make -j2 trogdor && make install
+RUN make -j2 trogdor && make install && make install_dev
 
 WORKDIR /
 COPY entrypoint.sh /entrypoint.sh

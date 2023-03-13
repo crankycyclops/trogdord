@@ -11,6 +11,12 @@
 #include "../config.h"
 #include "tcpcommon.h"
 
+#if ASIO_VERSION / 100 % 1000 >= 13
+	typedef asio::execution_context IO_SERVICE_TYPE;
+#else
+	typedef asio::io_service IO_SERVICE_TYPE;
+#endif
+
 
 class TCPServer;
 
@@ -47,7 +53,7 @@ class TCPConnection: public std::enable_shared_from_this<TCPConnection> {
 		std::string clientHost = "";
 
 		// Constructor should only be called internally by create().
-		TCPConnection(asio::io_service &io_service, TCPServer *s);
+		TCPConnection(IO_SERVICE_TYPE &io_service, TCPServer *s);
 
 		// Called after async_read_until() completes. Takes as input a callback
 		// function and a void pointer with an argument. Callback is only
@@ -68,7 +74,7 @@ class TCPConnection: public std::enable_shared_from_this<TCPConnection> {
 		// to an instance of TCPConnection that will automatically destruct
 		// when we're done with it.
 		static inline std::shared_ptr<TCPConnection> create(
-			asio::io_service &io_service, TCPServer *s
+			IO_SERVICE_TYPE &io_service, TCPServer *s
 		) {
 
 			// Calling new instead of using std::make_shared because the
