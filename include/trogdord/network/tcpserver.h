@@ -23,6 +23,10 @@ class TCPServer {
 
 	private:
 
+		// Reference to the io_service/io_context object used by this service
+		// to process requests
+		IO_SERVICE_TYPE *io_service;
+
 		// active connections that need to be maintained.
 		std::list<std::shared_ptr<TCPConnection>> activeConnections;
 
