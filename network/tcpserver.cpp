@@ -33,8 +33,14 @@ void TCPServer::serveRequest(std::shared_ptr<TCPConnection> connection, void *) 
 
 /******************************************************************************/
 
-TCPServer::TCPServer(asio::io_service &io_service, unsigned short port):
-timer(io_service, std::chrono::milliseconds(SERVE_SLEEP_TIME)) {
+TCPServer::TCPServer(IO_SERVICE_TYPE &ios, unsigned short port):
+timer(ios, std::chrono::milliseconds(SERVE_SLEEP_TIME)) {
+
+	// In ASIO >= 1.13, I can no longer retrieve this from the acceptor object,
+	// so instead, I'll stash a pointer to it here. Not sure if this is a good
+	// way to fix this, but I've been out of touch with C++ for a while and I
+	// just want the damn thing to build against a modern version of ASIO!
+	io_service = &ios;
 
 	std::unique_ptr<Config> &config = Config::get();
 
@@ -68,7 +74,7 @@ timer(io_service, std::chrono::milliseconds(SERVE_SLEEP_TIME)) {
 			asio::ip::address ipAddress = asio::ip::address::from_string(listener->GetString());
 
 			asio::ip::tcp::endpoint endpoint(ipAddress, port);
-			auto acceptor = std::make_unique<asio::ip::tcp::acceptor>(io_service);
+			auto acceptor = std::make_unique<asio::ip::tcp::acceptor>(*io_service);
 
 			acceptor->open(endpoint.protocol());
 
@@ -145,15 +151,7 @@ void TCPServer::startAccept(TCPConnection::callback_t callback, void *callbackAr
 
 	for (auto &acceptor: acceptors) {
 
-		std::shared_ptr<TCPConnection> connection = TCPConnection::create(
-
-			#if ASIO_VERSION / 100 % 1000 >= 13
-				acceptor->get_executor().context(),
-			#else
-				acceptor->get_io_service(),
-			#endif
-			this
-		);
+		std::shared_ptr<TCPConnection> connection = TCPConnection::create(*io_service, this);
 
 		acceptor->async_accept(
 			connection->getSocket(),

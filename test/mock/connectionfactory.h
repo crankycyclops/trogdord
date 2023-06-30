@@ -20,7 +20,7 @@ class ConnectionFactory {
 		bool started = false;
 
 		// IO service and accompanying instance of TCPServer
-		boost::asio::io_service io;
+		IO_SERVICE_TYPE io;
 		std::unique_ptr<TCPServer> server;
 
 		// Thread that will be used to run io.run()

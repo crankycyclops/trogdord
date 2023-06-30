@@ -23,6 +23,10 @@ class TCPServer {
 
 	private:
 
+		// Reference to the io_service/io_context object used by this service
+		// to process requests
+		IO_SERVICE_TYPE *io_service;
+
 		// active connections that need to be maintained.
 		std::list<std::shared_ptr<TCPConnection>> activeConnections;
 
@@ -67,7 +71,7 @@ class TCPServer {
 
 		// Contructor establishes that we're using IPv4 and that we're
 		// listening on port SERVER_PORT.
-		TCPServer(asio::io_service &io_service, unsigned short port);
+		TCPServer(IO_SERVICE_TYPE &io_service, unsigned short port);
 
 		// Makes sure the server is cleanly shutdown
 		~TCPServer();
