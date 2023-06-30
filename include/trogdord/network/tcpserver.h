@@ -67,7 +67,7 @@ class TCPServer {
 
 		// Contructor establishes that we're using IPv4 and that we're
 		// listening on port SERVER_PORT.
-		TCPServer(asio::io_service &io_service, unsigned short port);
+		TCPServer(IO_SERVICE_TYPE &io_service, unsigned short port);
 
 		// Makes sure the server is cleanly shutdown
 		~TCPServer();

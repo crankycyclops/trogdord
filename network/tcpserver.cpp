@@ -33,7 +33,7 @@ void TCPServer::serveRequest(std::shared_ptr<TCPConnection> connection, void *) 
 
 /******************************************************************************/
 
-TCPServer::TCPServer(asio::io_service &io_service, unsigned short port):
+TCPServer::TCPServer(IO_SERVICE_TYPE &io_service, unsigned short port):
 timer(io_service, std::chrono::milliseconds(SERVE_SLEEP_TIME)) {
 
 	std::unique_ptr<Config> &config = Config::get();

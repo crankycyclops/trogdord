@@ -12,7 +12,7 @@
 #include "tcpcommon.h"
 
 #if ASIO_VERSION / 100 % 1000 >= 13
-	typedef asio::execution_context IO_SERVICE_TYPE;
+	typedef asio::io_context IO_SERVICE_TYPE;
 #else
 	typedef asio::io_service IO_SERVICE_TYPE;
 #endif
