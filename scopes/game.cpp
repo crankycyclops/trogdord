@@ -475,7 +475,7 @@ rapidjson::Document GameController::destroyDump(const rapidjson::Document &reque
 		#if SIZE_MAX == UINT64_MAX
 			if (!slotArg->IsUint64()) {
 		#else
-			if (!slotArg->IsUInt()) {
+			if (!slotArg->IsUint()) {
 		#endif
 			response.AddMember("status", Response::STATUS_INVALID, response.GetAllocator());
 			response.AddMember("message", rapidjson::StringRef(INVALID_DUMPED_GAME_SLOT), response.GetAllocator());
@@ -905,7 +905,7 @@ rapidjson::Document GameController::getDump(const rapidjson::Document &request) 
 			#if SIZE_MAX == UINT64_MAX
 				if (!slotArg->IsUint64()) {
 			#else
-				if (!slotArg->IsUInt()) {
+				if (!slotArg->IsUint()) {
 			#endif
 				response.AddMember("status", Response::STATUS_INVALID, response.GetAllocator());
 				response.AddMember("message", rapidjson::StringRef(INVALID_DUMPED_GAME_SLOT), response.GetAllocator());
@@ -1162,7 +1162,7 @@ rapidjson::Document GameController::restoreGame(const rapidjson::Document &reque
 		#if SIZE_MAX == UINT64_MAX
 			if (!slotArg->IsUint64()) {
 		#else
-			if (!slotArg->IsUInt()) {
+			if (!slotArg->IsUint()) {
 		#endif
 
 			response.AddMember("status", Response::STATUS_INVALID, response.GetAllocator());
