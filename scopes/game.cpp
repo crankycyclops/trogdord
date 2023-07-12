@@ -139,7 +139,8 @@ rapidjson::Document GameController::getGame(const rapidjson::Document &request) 
 		response.AddMember("name", name.Move(), response.GetAllocator());
 		response.AddMember("definition", definition.Move(), response.GetAllocator());
 		response.AddMember("created", static_cast<size_t>(game->getCreated()), response.GetAllocator());
-		response.AddMember("current_time", game->get()->getTime(), response.GetAllocator());
+		// Casting to uint64_t prevents a bug with RapidJSON when doing a 32-bit build
+		response.AddMember("current_time", static_cast<uint64_t>(game->get()->getTime()), response.GetAllocator());
 		response.AddMember("is_running", game->get()->inProgress(), response.GetAllocator());
 	}
 
@@ -324,7 +325,8 @@ rapidjson::Document GameController::getStatistics(const rapidjson::Document &req
 		response.AddMember("status", Response::STATUS_SUCCESS, response.GetAllocator());
 		response.AddMember("created", timeCreatedVal, response.GetAllocator());
 		response.AddMember("players", game->getNumPlayers(), response.GetAllocator());
-		response.AddMember("current_time", game->get()->getTime(), response.GetAllocator());
+		// Casting to uint64_t prevents a bug with RapidJSON when doing a 32-bit build
+		response.AddMember("current_time", static_cast<uint64_t>(game->get()->getTime()), response.GetAllocator());
 		response.AddMember("is_running", game->get()->inProgress(), response.GetAllocator());
 	}
 
@@ -829,7 +831,8 @@ rapidjson::Document GameController::getTime(const rapidjson::Document &request) 
 
 	if (game) {
 		response.AddMember("status", Response::STATUS_SUCCESS, response.GetAllocator());
-		response.AddMember("current_time", game->get()->getTime(), response.GetAllocator());
+		// Casting to uint64_t prevents a bug with RapidJSON when doing a 32-bit build
+		response.AddMember("current_time", static_cast<uint64_t>(game->get()->getTime()), response.GetAllocator());
 	} else {
 		response.AddMember("status", Response::STATUS_NOT_FOUND, response.GetAllocator());
 		response.AddMember("message", rapidjson::StringRef(GAME_NOT_FOUND), response.GetAllocator());
