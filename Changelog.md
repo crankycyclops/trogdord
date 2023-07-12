@@ -5,7 +5,7 @@
 
 ### Changed
 
-- Fixed a bug that prevented trogdord from building on the armhf architecture
+- Fixed bugs that prevented trogdord from building on the armhf architecture
 - Removed build files that were included under the sample hello extension by accident
 
 ## [0.91.3] - 2023-06-29
