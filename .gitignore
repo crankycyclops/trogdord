@@ -1,2 +1,3 @@
 .vscode
 build/*
+sample/extensions/hello/build/*

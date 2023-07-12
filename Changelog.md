@@ -1,6 +1,23 @@
 
 # Change Log
 
+## [0.91.4] - 2023-07-11
+
+### Changed
+
+- Fixed a bug that prevented trogdord from building on the armhf architecture
+- Removed build files that were included under the sample hello extension by accident
+
+## [0.91.3] - 2023-06-29
+
+### Changed
+
+- Fixed a bug that prevented trogdord from building against ASIO >= 1.13
+
+### Misc Notes
+
+- There was no 0.91.2 release. I skipped to 0.91.3 by accident.
+
 ## [0.91.1] - 2023-02-17
 
 ### Changed

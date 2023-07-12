@@ -11,7 +11,7 @@ include(LibtoolFile)
 # Current version of trogdord
 set (TROGDORD_VERSION_MAJOR 0)
 set (TROGDORD_VERSION_MINOR 91)
-set (TROGDORD_VERSION_PATCH 3)
+set (TROGDORD_VERSION_PATCH 4)
 
 configure_file(${CMAKE_CURRENT_LIST_DIR}/cmake/version.h.in ${CMAKE_CURRENT_BINARY_DIR}/version.h @ONLY)
 
