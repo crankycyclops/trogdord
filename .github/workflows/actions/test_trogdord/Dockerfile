@@ -1,15 +1,12 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND="noninteractive" TZ="America/Los_Angeles"
 RUN apt-get update && apt-get -y install sudo bash wget git g++ cmake libasio-dev sqlite3 libsqlite3-dev rapidjson-dev libhiredis-dev libxml2 libxml2-dev liblua5.3 liblua5.3-dev libinih1 libinih-dev redis-server
 RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/2.4.4/doctest/doctest.h
 
-# Install the latest stable version of the core library (whatever's in master should be fine)
-WORKDIR /usr/local/src
-RUN git clone https://github.com/crankycyclops/trogdor-pp.git
-WORKDIR /usr/local/src/trogdor-pp
-RUN cmake -DENABLE_SERIALIZE_JSON=ON -DENABLE_SERIALIZE_SQLITE=ON -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX:PATH=/usr ./src/core
-RUN make -j2 trogdor && make install && make install_dev
+# Install the latest stable version of the core library
+RUN add-apt-repository ppa:crankycyclops/trogdor-pp -y
+RUN apt-get install libtrogdor libtrogdor-dev libtrogdor-dbgsym
 
 WORKDIR /
 COPY entrypoint.sh /entrypoint.sh
