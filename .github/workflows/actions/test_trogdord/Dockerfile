@@ -6,7 +6,7 @@ RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/2.4
 
 # Install the latest stable version of the core library
 RUN add-apt-repository ppa:crankycyclops/trogdor-pp -y
-RUN apt-get install libtrogdor libtrogdor-dev libtrogdor-dbgsym
+RUN apt-get install libtrogdor libtrogdor-dev
 
 WORKDIR /
 COPY entrypoint.sh /entrypoint.sh
