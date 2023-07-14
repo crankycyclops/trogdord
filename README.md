@@ -52,7 +52,19 @@ If you're interested in writing your own client-side connector, or just want to 
 
 ## Installation
 
-To build and install, first make sure the [core library](https://github.com/crankycyclops/trogdor-pp/tree/master/src/core) was built and installed to a place where pkg-config can find it, then issue these commands:
+### Installing the Ubuntu Package
+
+There are currently pre-built packages for Ubuntu 22.04, and if you run that operating system, you can install the latest stable version with the following commands:
+
+```
+sudo add-apt-repository ppa:crankycyclops/trogdor-pp
+sudo apt-get update
+sudo apt-get install trogdord
+```
+
+### Building from Source
+
+First, make sure the [core library](https://github.com/crankycyclops/trogdor-pp/tree/master/src/core) was built and installed to a place where pkg-config can find it. Then, issue these commands:
 
 ```
 cd src/trogdord && cmake -DCMAKE_BUILD_TYPE=Release .
